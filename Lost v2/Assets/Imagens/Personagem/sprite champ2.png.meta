@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 1ed101924b508ec449aebd0c53603274
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sprite champ2_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 217
+        width: 109
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 220
+        width: 64
+        height: 167
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 219
+        width: 69
+        height: 167
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 217
+        width: 88
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 217
+        width: 109
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_5
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 219
+        width: 68
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_6
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 218
+        width: 73
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 27
+        width: 62
+        height: 171
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 30
+        width: 57
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_9
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 29
+        width: 61
+        height: 163
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_10
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 30
+        width: 97
+        height: 167
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_11
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 30
+        width: 108
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_12
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 29
+        width: 105
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_13
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 32
+        width: 108
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite champ2_14
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 37
+        width: 102
+        height: 163
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
