@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraMover.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cobra.cs">
     <Files>
-      <File FileName="Assets\Scripts\CameraMover.cs" Line="21" Column="73" />
+      <File FileName="Assets\Scripts\Cobra.cs" Line="28" Column="9" />
+      <File FileName="Assets\Scripts\Player.cs" Line="44" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
