@@ -18,7 +18,7 @@ public class CameraMover : MonoBehaviour {
 		novaPosicao.x = Mathf.SmoothDamp (transform.position.x, player.position.x, ref velocidade.x, smooth);
 		novaPosicao.y = Mathf.SmoothDamp (transform.position.y, player.position.y, ref velocidade.y, smooth);
 		
-		Vector3 novaPosicao3d = new Vector3 (novaPosicao.x, novaPosicao.y, transform.position.z);
+		Vector3 novaPosicao3d = new Vector3 (novaPosicao.x, novaPosicao.y+1.67f, transform.position.z);
 		
 		transform.position = Vector3.Slerp (transform.position, novaPosicao3d, Time.time);
 	}
