@@ -45,7 +45,12 @@ public class Cobra : MonoBehaviour {
 		if (other.gameObject.tag == "colisorCobra") {
 			trocarLado();
 		}
-	
+	}
+
+	void OnCollisionEnter2D(Collision2D other) {
+		if (other.gameObject.tag == "perdido") {
+			Destroy(gameObject);
+		}
 	}
 
 }
