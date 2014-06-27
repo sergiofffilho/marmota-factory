@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cobra.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Pedra.js">
     <Files>
-      <File FileName="Assets\Scripts\Cobra.cs" Line="51" Column="43" />
+      <File FileName="Assets\Scripts\Soin.cs" Line="17" Column="43" />
+      <File FileName="Assets\Scripts\Cobra.cs" Line="24" Column="4" />
+      <File FileName="Assets\Scripts\Pedra.js" Line="11" Column="20" />
+      <File FileName="Assets\Scripts\Soin.js" Line="2" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,4 +1,4 @@
-﻿#pragma strict
+#pragma strict
 var projetil 	: GameObject;
 
 function Start () {
@@ -6,5 +6,6 @@ function Start () {
 }
 
 function Update () {
-	Instantiate(projetil, transform.position, transform.rotation);
+	Instantiate(projetil, transform.position, transform.rotation);	
 }
+
