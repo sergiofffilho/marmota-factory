@@ -8,7 +8,6 @@ var smooth : float = 5.0;
 function Start () {
 
 velocidadePedra = 1;
-//posicaoPerdido = Vector3(GameObject.FindGameObjectWithTag("perdido").transform.position.x, GameObject.FindGameObjectWithTag("perdido").transform.position.y, 0);
 posicaoPerdido = ((GameObject.FindGameObjectWithTag("perdido").transform.position - this.transform.position) * velocidadePedra * Time.deltaTime);
 posicaoPedra = (GameObject.FindGameObjectWithTag("perdido").transform.position - this.transform.position);
 }
@@ -24,8 +23,9 @@ function Update() {
 function Tiro(){
 	//transform.position = Vector3.Lerp(transform.position, posicaoPerdido, Time.deltaTime * smooth);
 	//transform.position = GameObject.FindGameObjectWithTag("perdido").transform.position - this.transform.position;
-	
-	transform.Translate(posicaoPerdido);
+	posicaoPerdido.
+	transform.Translate(posicaoPerdido, Space.World);
+	//transform.Translate(posicaoPerdido);
 
 }
 

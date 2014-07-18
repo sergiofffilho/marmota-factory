@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{9C0DB7DF-0668-85F1-E2E4-3FCDABB65B15}") = "Lost v2", "Assembly-CSharp.csproj", "{FC5CD8FA-EA99-3199-8EB9-A736F88092BF}"
 EndProject
+Project("{9C0DB7DF-0668-85F1-E2E4-3FCDABB65B15}") = "Lost v2", "Assembly-CSharp-Editor.csproj", "{A87B4F93-B1E8-5866-B2B9-052A257C40D3}"
+EndProject
 Project("{9C0DB7DF-0668-85F1-E2E4-3FCDABB65B15}") = "Lost v2", "Assembly-UnityScript.unityproj", "{44B23780-23E1-6297-27CE-48E46828535F}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{FC5CD8FA-EA99-3199-8EB9-A736F88092BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5CD8FA-EA99-3199-8EB9-A736F88092BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5CD8FA-EA99-3199-8EB9-A736F88092BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87B4F93-B1E8-5866-B2B9-052A257C40D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87B4F93-B1E8-5866-B2B9-052A257C40D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87B4F93-B1E8-5866-B2B9-052A257C40D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87B4F93-B1E8-5866-B2B9-052A257C40D3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{44B23780-23E1-6297-27CE-48E46828535F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44B23780-23E1-6297-27CE-48E46828535F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44B23780-23E1-6297-27CE-48E46828535F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																				GlobalSection(MonoDevelopProperties) = preSolution
+																																																																										GlobalSection(MonoDevelopProperties) = preSolution
 =======
 														GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> d3ef712fb1c5f7d2075dbca27417d42c091d5426
