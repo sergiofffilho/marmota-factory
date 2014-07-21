@@ -1,6 +1,16 @@
 fileFormatVersion: 2
-guid: f27e9e2832c2e7d4e9b935a7f474ad48
+guid: ede34be270ccc274db8d801a89c853a4
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: cobra2
+    21300002: cobra2_0
+    21300004: cobra2_1
+    21300006: cobra2_2
+    21300008: cobra2_3
+    21300010: cobra2_4
+    21300012: cobra2_5
+    21300014: cobra2_6
+    21300016: cobra2_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -45,80 +55,80 @@ TextureImporter:
     - name: cobra2_0
       rect:
         serializedVersion: 2
-        x: 659
-        y: 80
-        width: 139
-        height: 120
+        x: 20
+        y: 78
+        width: 155
+        height: 124
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: cobra2_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 82
-        width: 153
-        height: 117
+        x: 194
+        y: 78
+        width: 151
+        height: 123
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: cobra2_2
       rect:
         serializedVersion: 2
-        x: 180
-        y: 79
-        width: 150
-        height: 122
+        x: 371
+        y: 78
+        width: 154
+        height: 121
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: cobra2_3
       rect:
         serializedVersion: 2
-        x: 339
+        x: 547
         y: 78
-        width: 152
-        height: 120
+        width: 149
+        height: 123
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: cobra2_4
       rect:
         serializedVersion: 2
-        x: 501
-        y: 78
-        width: 146
-        height: 120
+        x: 718
+        y: 80
+        width: 150
+        height: 122
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: cobra2_5
       rect:
         serializedVersion: 2
-        x: 810
-        y: 80
-        width: 143
-        height: 118
+        x: 909
+        y: 78
+        width: 146
+        height: 121
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: cobra2_6
       rect:
         serializedVersion: 2
-        x: 953
-        y: 80
-        width: 147
-        height: 114
+        x: 1101
+        y: 77
+        width: 148
+        height: 125
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: cobra2_7
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 76
-        width: 150
-        height: 125
+        x: 1297
+        y: 78
+        width: 148
+        height: 124
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -23,7 +23,6 @@ function Update() {
 function Tiro(){
 	//transform.position = Vector3.Lerp(transform.position, posicaoPerdido, Time.deltaTime * smooth);
 	//transform.position = GameObject.FindGameObjectWithTag("perdido").transform.position - this.transform.position;
-	posicaoPerdido.
 	transform.Translate(posicaoPerdido, Space.World);
 	//transform.Translate(posicaoPerdido);
 
