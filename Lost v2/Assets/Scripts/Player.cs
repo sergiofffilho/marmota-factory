@@ -23,7 +23,6 @@ public class Player : MonoBehaviour {
 	}
 	
 	void Update () {
-
 		Movimentar();
 
 	}
@@ -33,7 +32,13 @@ public class Player : MonoBehaviour {
 		isChao = Physics2D.Linecast(this.transform.position, chao.position, 1<<LayerMask.NameToLayer("Frente"));
 
 		animator.SetFloat("andar", Mathf.Abs(Input.GetAxis("Horizontal")));
-
+		//animator.SetFloat("pulo", Mathf.Abs(Input.GetAxis("Vertical")));
+		if(rigidbody2D.velocity.y < 0){
+				animator.SetBool("pulo", true);
+		}else{
+			animator.SetBool("pulo", false);
+		}
+		
 		if (Input.GetAxisRaw ("Horizontal") > 0) {
 					transform.Translate (Vector2.right * velocidade * Time.deltaTime);
 				transform.eulerAngles = new Vector2 (0, 0);

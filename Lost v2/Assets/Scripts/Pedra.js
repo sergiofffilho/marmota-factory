@@ -15,7 +15,6 @@ function Update() {
 	Tiro();
 	//print(GameObject.FindGameObjectWithTag("perdido").transform.position.x - this.transform.position.x);
 	if(GameObject.FindGameObjectWithTag("perdido").transform.position.x - this.transform.position.x > 50 || GameObject.FindGameObjectWithTag("perdido").transform.position.x - this.transform.position.x < -50){
-		print("Destruindo pedra");
 		Destroy(this.gameObject);
 	}
 }
