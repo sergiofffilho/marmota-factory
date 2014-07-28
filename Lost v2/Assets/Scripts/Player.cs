@@ -40,12 +40,12 @@ public class Player : MonoBehaviour {
 		}
 		
 		if (Input.GetAxisRaw ("Horizontal") > 0) {
-					transform.Translate (Vector2.right * velocidade * Time.deltaTime);
+					transform.Translate (Vector2.right * (velocidade+0.5f) * Time.deltaTime);
 				transform.eulerAngles = new Vector2 (0, 0);
 		}
 
 		if (Input.GetAxisRaw ("Horizontal") < 0) {
-				transform.Translate (Vector2.right * velocidade * Time.deltaTime);
+			transform.Translate (Vector2.right * (velocidade+0.5f) * Time.deltaTime);
 				transform.eulerAngles = new Vector2 (0, 180);
 		}
 

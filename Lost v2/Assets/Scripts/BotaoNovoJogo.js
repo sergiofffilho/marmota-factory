@@ -2,5 +2,5 @@
 
 function OnClick ()
 	{	
-	Application.LoadLevel("fase1");
+	Application.LoadLevel("fase1NovosGraficos");
 	}
