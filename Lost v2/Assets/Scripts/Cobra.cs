@@ -4,6 +4,7 @@ using System.Collections;
 public class Cobra : MonoBehaviour {
 	public float velocidade;
 	public bool esquerda;
+
 	// Use this for initialization
 	void Start () {
 		velocidade = 1;
@@ -49,7 +50,11 @@ public class Cobra : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D other) {
 		if (other.gameObject.tag == "perdido") {
-			Destroy(gameObject);
+			vida = GameObject.FindGameObjectWithTag("Vidas").GetComponent<Vidas>() as Vidas;
+
+			if (vida.ExcluirVida()){
+				Destroy(gameObject);
+			}
 		}
 	}
 

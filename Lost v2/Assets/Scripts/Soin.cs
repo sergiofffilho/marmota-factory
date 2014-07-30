@@ -15,6 +15,8 @@ public class Soin : MonoBehaviour {
 	private Animator animator;
 	private float tempoTiro;
 
+	private Vidas vida;
+
 	// Use this for initialization
 	void Start () {
 
@@ -29,13 +31,17 @@ public class Soin : MonoBehaviour {
 	IEnumerator OnTriggerStay2D(Collider2D other) {
 
 		if (other.gameObject.tag == "perdido") {
+
 			if(Time.time % 2 == 0){
 				animator.SetBool("atirando",true);
 				yield return new WaitForSeconds(0.5f);
 				Instantiate(projetil, transform.position, transform.rotation);
 				//animator.SetTrigger("atirando2");
 		}
+
+
 	}
+	
 
 }
 }

@@ -5,12 +5,15 @@ var posicaoPedra;
 var posicao;
 var smooth : float = 5.0;
 
+
+
 function Start () {
 
 velocidadePedra = 1;
 posicaoPerdido = ((GameObject.FindGameObjectWithTag("perdido").transform.position - this.transform.position) * velocidadePedra * Time.deltaTime);
 posicaoPedra = (GameObject.FindGameObjectWithTag("perdido").transform.position - this.transform.position);
 }
+
 function Update() {
 	Tiro();
 	//print(GameObject.FindGameObjectWithTag("perdido").transform.position.x - this.transform.position.x);
