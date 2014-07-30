@@ -16,6 +16,11 @@ public class Player : MonoBehaviour {
 	public bool pulando;
 	public Transform chao;
 
+	public Transform Elevador;
+	public bool Cipo = false;
+	public bool Pendurado = false;
+	public bool fixado = false;
+
 	void Start () {
 
 		animator = player.GetComponent<Animator> ();
@@ -31,7 +36,12 @@ public class Player : MonoBehaviour {
 
 		isChao = Physics2D.Linecast(this.transform.position, chao.position, 1<<LayerMask.NameToLayer("Frente"));
 
-		animator.SetFloat("andar", Mathf.Abs(Input.GetAxis("Horizontal")));
+
+		if (isChao) {
+			animator.SetFloat("andar", Mathf.Abs(Input.GetAxis("Horizontal")));
+		}else if(Pendurado) {
+			
+		}
 		//animator.SetFloat("pulo", Mathf.Abs(Input.GetAxis("Vertical")));
 		if(rigidbody2D.velocity.y < 0){
 				animator.SetBool("pulo", true);
@@ -49,11 +59,24 @@ public class Player : MonoBehaviour {
 				transform.eulerAngles = new Vector2 (0, 180);
 		}
 
+		if (Input.GetAxisRaw ("Vertical") > 0 && Cipo && fixado) {
+			Elevador.Translate (Vector2.up *velocidade * Time.deltaTime);
+		}
+		
+		if (Input.GetAxisRaw ("Vertical") < 0 && Cipo && fixado) {
+			Elevador.Translate (-Vector2.up * 2.5f * Time.deltaTime);
+		}
+
 		if (Input.GetButtonDown ("Jump") && isChao && !pulando) {
 			rigidbody2D.AddForce(transform.up * forca);
 			tempoPulo = puloDelay;
 			animator.SetTrigger("pular");
 			pulando = true;
+		}else if (Input.GetButtonDown ("Jump") && Pendurado && !pulando) {
+			rigidbody2D.AddForce(transform.up * forca);
+			tempoPulo = puloDelay;
+			animator.SetTrigger("pular");
+			pulando = true; 
 		}
 
 		tempoPulo -= Time.deltaTime;
@@ -63,5 +86,44 @@ public class Player : MonoBehaviour {
 			pulando = false;
 		}
 
+	}
+
+	void OnTriggerEnter2D(Collider2D other){
+		if(other.gameObject.tag == "Cipo") {
+			Cipo = true;
+		}
+	}
+	
+	void OnTriggerStay2D(Collider2D other) {
+		if ( Cipo ) {
+			if (Input.GetAxisRaw ("Vertical") > 0) {
+				Pendurado = true;
+				if ( fixado==false ) {
+					Elevador.position = transform.position;
+					Elevador.Translate(-Vector2.up);
+					Elevador.collider2D.isTrigger = false;
+					fixado = true;
+					
+				}
+			}
+		} else {
+			Cipo = false;
+			Pendurado = false;
+		}
+	}
+	
+	void OnTriggerExit2D(Collider2D other) {
+		if(other.gameObject.tag == "Cipo") {
+			Cipo = false;
+			Pendurado=false;
+			Elevador.collider2D.isTrigger = true;
+			fixado = false;
+		}
+	}
+	
+	void OnCollisionEnter2D(Collision2D coll) {
+		if (coll.gameObject.tag == "Elevador")
+			pulando= false;
+		
 	}
 }
