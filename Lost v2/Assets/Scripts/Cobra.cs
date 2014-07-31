@@ -4,6 +4,7 @@ using System.Collections;
 public class Cobra : MonoBehaviour {
 	public float velocidade;
 	public bool esquerda;
+	private Vidas vida;
 
 	// Use this for initialization
 	void Start () {
