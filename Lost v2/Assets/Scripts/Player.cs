@@ -4,7 +4,7 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
 	public float velocidade;
-
+	private Vidas vida;
 	public Transform player;
 	private Animator animator;
 
@@ -43,6 +43,7 @@ public class Player : MonoBehaviour {
 			
 		}
 		//animator.SetFloat("pulo", Mathf.Abs(Input.GetAxis("Vertical")));
+		Debug.Log (rigidbody2D.velocity.y);
 		if(rigidbody2D.velocity.y < 0){
 				animator.SetBool("pulo", true);
 		}else{
@@ -122,8 +123,17 @@ public class Player : MonoBehaviour {
 	}
 	
 	void OnCollisionEnter2D(Collision2D coll) {
-		if (coll.gameObject.tag == "Elevador")
-			pulando= false;
+		if (coll.gameObject.tag == "Elevador") {
+						pulando = false;
+				}
+		if ((coll.gameObject.tag == "Cobra")||(coll.gameObject.tag == "Pedra")) {
+			vida = GameObject.FindGameObjectWithTag("Vidas").GetComponent<Vidas>() as Vidas;
+			
+			if (vida.ExcluirVida()){
+				Destroy(coll.gameObject);
+			}
+		}
+
 		
 	}
 }

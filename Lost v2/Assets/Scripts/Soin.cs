@@ -10,10 +10,12 @@ public class ExampleClass : MonoBehaviour {
 }
 
 public class Soin : MonoBehaviour {
+	public bool podeAtirar=true;
 	public GameObject projetil;
 	public Transform soin;
 	private Animator animator;
 	private float tempoTiro;
+	public float time = 0;
 
 	private Vidas vida;
 
@@ -26,22 +28,29 @@ public class Soin : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if (Time.time % 2 != 0) {
+			podeAtirar=true;
+		}
+
 	}
 				
 	IEnumerator OnTriggerStay2D(Collider2D other) {
 
 		if (other.gameObject.tag == "perdido") {
-
-			if(Time.time % 2 == 0){
+			//Debug.Log(time);
+			if(time > 7){
+				//Debug.Log("entrou");
 				animator.SetBool("atirando",true);
+				time = 0;
 				yield return new WaitForSeconds(0.5f);
 				Instantiate(projetil, transform.position, transform.rotation);
-				//animator.SetTrigger("atirando2");
+
+				podeAtirar=false;
+			}
+			//animator.SetTrigger("atirando2");
+			time+=Time.deltaTime;
+
+
 		}
-
-
 	}
-	
-
-}
 }

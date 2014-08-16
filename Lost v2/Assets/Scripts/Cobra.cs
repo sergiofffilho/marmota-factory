@@ -49,7 +49,7 @@ public class Cobra : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D other) {
+/*	void OnCollisionEnter2D(Collision2D other) {
 		if (other.gameObject.tag == "perdido") {
 			vida = GameObject.FindGameObjectWithTag("Vidas").GetComponent<Vidas>() as Vidas;
 
@@ -57,6 +57,6 @@ public class Cobra : MonoBehaviour {
 				Destroy(gameObject);
 			}
 		}
-	}
+	}*/
 
 }

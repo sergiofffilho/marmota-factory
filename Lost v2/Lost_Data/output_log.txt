@@ -2,24 +2,24 @@ Initialize engine version: 4.5.1f3 (73cd57f80e3e)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
-    Vendor:   Intel
-    VRAM:     2085 MB
+    Renderer: ATI Mobility Radeon HD 6550 (ID=0x68c1)
+    Vendor:   ATI
+    VRAM:     1014 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Marcilio Valois\Downloads\lost2\marmota-lost-v2\Lost v2\Lost_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Marcilio Valois\Downloads\lost2\marmota-lost-v2\Lost v2\Lost_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Marcilio Valois\Downloads\lost2\marmota-lost-v2\Lost v2\Lost_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Marcilio Valois\Downloads\lost2\marmota-lost-v2\Lost v2\Lost_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Marcilio Valois\Downloads\lost2\marmota-lost-v2\Lost v2\Lost_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\Marcilio Valois\Downloads\lost2\marmota-lost-v2\Lost v2\Lost_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.057 seconds
+Platform assembly: C:\Users\Marcos\Saved Games\jogo\marmota\marmota-lost-v2\Lost v2\Lost_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Marcos\Saved Games\jogo\marmota\marmota-lost-v2\Lost v2\Lost_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Marcos\Saved Games\jogo\marmota\marmota-lost-v2\Lost v2\Lost_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Marcos\Saved Games\jogo\marmota\marmota-lost-v2\Lost v2\Lost_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Marcos\Saved Games\jogo\marmota\marmota-lost-v2\Lost v2\Lost_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Marcos\Saved Games\jogo\marmota\marmota-lost-v2\Lost v2\Lost_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.084 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\Marcilio Valois\Downloads\lost2\marmota-lost-v2\Lost v2\Lost_Data\Managed\System.dll (this message is harmless)
-UnloadTime: 2.731178 ms
+Platform assembly: C:\Users\Marcos\Saved Games\jogo\marmota\marmota-lost-v2\Lost v2\Lost_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 3.881266 ms
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 357.
-Total: 0.683682 ms (FindLiveObjects: 0.033157 ms CreateObjectMapping: 0.018552 ms MarkObjects: 0.148025 ms  DeleteObjects: 0.018947 ms)
+Total: 0.979415 ms (FindLiveObjects: 0.040128 ms CreateObjectMapping: 0.020530 ms MarkObjects: 0.198309 ms  DeleteObjects: 0.029396 ms)
 
