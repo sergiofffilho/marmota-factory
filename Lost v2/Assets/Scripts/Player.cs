@@ -29,6 +29,11 @@ public class Player : MonoBehaviour {
 	
 	void Update () {
 		Movimentar();
+		Debug.Log (vida.vidas);
+		if (vida.vidas <=0) {
+
+			Application.LoadLevel("menu");		
+		}
 
 	}
 
@@ -133,7 +138,8 @@ public class Player : MonoBehaviour {
 				Destroy(coll.gameObject);
 			}
 		}
-
+	
 		
 	}
+
 }

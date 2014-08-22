@@ -4,13 +4,14 @@ using System.Collections;
 public class Vidas : MonoBehaviour {
 
 	public Texture2D[] vidaAtual;
-	private int vidas;
-	private int contador;
+	public int controladorvidas;
+	public int contador;
+	public int vidas = 3;
 
 	void Start () {
 	
 		guiTexture.texture = vidaAtual [0];
-		vidas = vidaAtual.Length;
+		controladorvidas = vidaAtual.Length;
 
 	}
 	
@@ -21,15 +22,21 @@ public class Vidas : MonoBehaviour {
 	}
 
 	public bool ExcluirVida(){
-		if (vidas < 0) {
+
+		if (controladorvidas < 0) {
+			vidas -= 1;
 			return false;
+
 		}
-		if (contador < vidas - 1) {
+		if (contador < controladorvidas - 1) {
 			contador += 1;
+			vidas -= 1;
+		
 			guiTexture.texture = vidaAtual [contador];
 			return true;
 		
 		} else {
+			vidas -= 1;
 			return false;
 		}
 

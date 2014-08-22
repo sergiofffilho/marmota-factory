@@ -1,5 +1,5 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-4428
+Pipe name: \\.\pipe\UnityShaderCompiler-1-5984
 Cmd: getPlatforms
 Cmd: preprocess
   insize=1671 outsize=948 ok=1
@@ -38,7 +38,7 @@ Cmd: preprocess
 Cmd: compileSnippet
   error: 2 plat 4 at (64): 'vert': output parameter 'o' not completely initialized
   error: 1 plat 4 at (81): implicit truncation of vector type
-  api=4 type=0 insize=7015 outsize=0 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+  api=4 type=0 insize=7048 outsize=0 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
 Cmd: preprocess
   insize=1624 outsize=947 ok=1
 Cmd: preprocess
