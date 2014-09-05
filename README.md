@@ -1,2 +1,2 @@
-marmota-lost-v2
+Repositório do grupo de jogos Marmota Factory
 ===============
